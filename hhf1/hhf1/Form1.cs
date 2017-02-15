@@ -17,6 +17,8 @@ namespace hhf1
         bool muvelet_jel_megnyomva = false;
         Double elojel = 0;
 
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -53,7 +55,25 @@ namespace hhf1
 
         private void button14_Click(object sender, EventArgs e)
         {
-            
+            switch (muvelet_jel)
+            {
+
+                case "+": 
+                    break;
+                case "-":
+                    break;
+                case "*":
+                    break;
+                case "/":
+                    break;
+
+
+                default:
+                    break;
+                    
+
+
+            }
 
 
         }
